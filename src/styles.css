@@ -1,0 +1,179 @@
+@font-face {
+    font-family: digital;
+    src: url(assets/font/digital-7.ttf);
+}
+
+@font-face {
+    font-family: radioland;
+    src: url(assets/font/RADIOLAND.TTF);
+}
+body {
+    width: 99%;
+    height: 90vh;
+    background-color: #3c429c;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mycalc {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 80vh;
+    border-radius: 10px;
+    background-color:#4C52AD;
+    box-shadow: 10px 10px 10px rgb(48, 48, 48)
+}
+
+.all-btn {
+    display: flex;
+
+}
+
+.all-btn-numbers {
+    width: 290px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all-btn-signs {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-btn-numbers button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin: 10px;
+    color: #000000;
+    font-size: 40px;
+    font-family: digital;
+    font-style: bold;
+    border-radius: 70px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#back {
+    font-size: 24px;
+    font-family: digital;
+    font-style: bold;
+}
+
+.all-btn-signs button {
+    background-color: rgb(20, 255, 196);
+    border: none;
+    margin: 10px;
+    color: #000000;
+    font-size: 40px;
+    border-radius: 70px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 100;
+}
+
+.all-btn-signs button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(0, 233, 250);
+}
+.all-btn-numbers button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+}
+
+.btn-extra {
+    display: flex;
+}
+
+.btn-extra button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.btn-extra button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+}
+
+.btn-clear-equals {
+    justify-content: space-evenly;
+    width: 98%;
+    flex: 1;
+    background-color: rgba(128, 128, 128, 0.356);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btn-clear-equals button {
+    width: 120px;
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+#clear {
+    color: aqua;
+    background-color: rgb(0, 1, 51);
+    font-size: 40px;
+    font-family: digital;
+    font-style: bold;
+}
+
+#equals {
+    color: aqua;
+    background-color: rgb(0, 1, 51);
+    font-size: 60px;
+    font-family: digital;
+    font-style: bold;
+}
+
+#clear:hover,
+#equals:hover {
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0px 0px 20px 5px rgb(212, 212, 212);
+}
+
+input {
+    width: 85%;
+    margin: 10px 0px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    font-family: digital;
+}
+
+
+.onlinecalculator {
+    text-align: left;
+    padding-top: 40px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: radioland;
+}
+
+.kashif {
+    text-align: right;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: radioland;
+}
